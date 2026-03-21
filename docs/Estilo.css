@@ -1,0 +1,41 @@
+p {
+    color:darkorchid;
+}
+
+body {
+    background: darkslategrey;
+    background-image: url(https://muralzinhodeideias.com.br/wp-content/uploads/2022/10/pernalonga-divulgacao.jpg);
+}
+/*seletor classe*/
+.robin {
+    font-family: fantasy;
+    font-size: 17pt;
+}
+
+/*seletor id*/
+#batman {
+    background-color: darkgray;
+    color: yellow;
+}
+
+table {
+    font-family: Arial;
+    text-align: right;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+a:hover {
+    background-color: purple;
+    color: white;
