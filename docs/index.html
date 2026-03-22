@@ -2,39 +2,68 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Hello visitante</title>
+    <title>Junior Profile</title>
+    <link rel="stylesheet" href="Estilo.css">
+
 </head>
 <body>
-    <h1>Olá estranho(a)!</h1>
-    <p>Seja bem-vindo a minha página, espero que encontre o que procura.</p>
+    <h1 id="fb2"></h1>
+<hr>
 
-    <a href="contatos.html"> Página para contato </a>
+    <p>Me chamo Junior Medina Rodrigues, tenho 23 anos e sou cristão, guiado pela fé e pela constante busca por crescimento e superação.
+        Divido minha trajetória entre a informática e a mecânica, construindo meu caminho com disciplina, foco e consistência. Acredito que o processo molda
+        o caráter, e que cada desafio é uma oportunidade de evolução.
+        Atualmente resido em Santa Maria, Rio Grande do Sul, onde curso programação pelo Técnico em Informática para Sistemas de Internet da UFSM. Cada passo,
+        erro e conquista fazem parte da história que venho construindo.</p>
 
-
-    <p>Bom, me chamo Junior Medina Rodrigues, tenho 23 anos e estou morando em Santa Maria, Rio Grande do Sul. Atualmente estou cursando programação
-        pelo curso Técnico de Informática para Sistemas de Internet da UFSM.</p>
-
-    <h2>O que espero em relação ao curso:</h2>
+<hr>
+    <h2>📚O que espero em relação ao curso:</h2>
         <ul>
             <li>Dominar as linguagens de programação;
                 <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>PHP</li>
+                    <li>C;</li>
+                    <li>C++;</li>
+                    <li>Java;</li>
+                    <li>Python;</li>
+                    <li>PHP.</li>
                 </ul>
             <li>Aprimorar meu conhecimento como programador;</li>
-            <li>Conseguir atura na área;</li>
+            <li>Conseguir atura na área.</li>
+        </ul>
+<hr>
+    <h2>🎨 Meus hobbies são:</h2>
+        <ul>
+           <li>Jogar videogames;</li>
+           <li>Desenhar;</li>
+           <li>Admirar carros;</li>
+           <li>Escutar musica;</li>
+           <li>Estar com as pessoas que amo.</li>
         </ul>
 
-    <h2>Minhas redes sócias:</h2>
 
-<a href="https://instagram.com">@jmedina_07</a><br/>
-<a href="https://github.com">Junior1bits</a>
+<hr>
+    <h2>🌐 Minhas redes sociais:</h2>
+        <ul>
+            <li> <a href="https://instagram.com">@jmedina_07</a><br/></li>
+            <li> <a href="https://www.linkedin.com/in/junior-rodrigues-8998231b4/">Junior Rodrigues</a><br/></li>
+            <li> <a href="https://github.com">Junior1bits</a></li>
+        </ul>
 
+    <script>
+        const texto = "Seja Bem Vindo!";
+        let i = 0;
 
-    <p style= "color: red;">
+        function escrever() {
+            if (i < texto.length) {
+                document.getElementById("fb2").innerHTML += texto.charAt(i);
+                i++;
+                setTimeout(escrever, 80);
+            }
+        }
+
+        escrever();
+    </script>
+
 
 
 </body>
