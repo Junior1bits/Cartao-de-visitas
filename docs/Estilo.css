@@ -11,9 +11,16 @@ body {
     background: darkslategrey;
     background-image: url(https://wallpapers.com/images/hd/black-and-white-anime-boy-p6y01crggk20wt5f.jpg);
     color: white;
+    text-align: center;
+    font-size:
+
 }
 
-
+.lista-centralizada{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
 
 
 /*seletor classe*/
@@ -25,9 +32,8 @@ body {
 /*seletor id*/
 #fb2 {
     color:blueviolet;
-    margin-left: 100px;
+    margin-left:;
 }
-
 <script>
  const texto = "Seja Bem Vindo!";
 let i = 0;
@@ -38,10 +44,6 @@ document.getElementById("fb2").innerHTML += texto.charAt(i);
     i++;
 setTimeout(escrever, 80);
 }
-}
-
-escrever();
-</script>
 
 
 
